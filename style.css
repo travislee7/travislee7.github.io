@@ -2,21 +2,26 @@
     font-family: Arial, sans-serif;
 }
 
+/* menu */
 #menu {
-    width: 10%;
-    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: #333;
     text-align: center;
     padding-top: 10px;
     position: fixed;
     top: 0;
+    left:0;
     bottom: 0;
+    justify-content: space-between;
 }
 
 .self-photo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #333;
+    border: 3px solid #fff;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
@@ -29,32 +34,122 @@
     border-radius: 50%;
 }
 
-#menu ul {
+.menu-list {
     list-style-type: none;
     padding-top: 10px;
     padding-left: 0;
     margin: 0;
 }
 
-#menu li {
+.menu-list li {
+    padding: 20px;
+}
+
+.menu-list li:hover {
+    background-color: #555;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-list a {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.fa {
+    color: #fff;
+}
+
+/* main */
+.main-section {
+    margin-left: 15%;
+    padding: 10px;
+}
+
+.main-section h1{
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Project Page */
+
+.project {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.project h2 {
+    color: #333;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-#menu li:hover {
-    background-color: darkgray;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    cursor: pointer;
-    
+.project p {
+    color: #666;
+    font-size: 16px;
 }
 
-#menu a {
-    font-size: larger;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
-
-.main-section {
-    margin-left: 10%;
+/* About Me Page */
+.about-section {
+    margin: 20px;
     padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Experience Page */
+.experience-section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.experience-section h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience-section p {
+    color: #666;
+    font-size: 16px;
 }
