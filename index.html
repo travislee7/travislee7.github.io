@@ -34,7 +34,7 @@
     <div class="main-section">
         <div class="about-section">
             <div class="about-me-image">
-                <img src="images/profilephoto.jpg" alt="Photo">
+                <img id="headshot" src="images/profilephoto.jpg" alt="Photo">
             </div>
             <div>
                 <h1 id="about-name">John Doe</h1>
@@ -46,11 +46,12 @@
             </div>
             <div class="contact-me">
                 <h2>Contact Me</h2>
-                <p>Email:johndoe@gmail.com</p>
-                <p>Phone:123-456-7890</p>
-                <p>linkedin</p>
+                <p><span>Email:</span>&nbsp<span id="pfEmail"></span></p>
+                <p><span>Phone:</span>&nbsp<span id="pfPhone"></span></p>
+                <p><span>Web:</span>&nbsp<span id="pfWeb"></span></p>
             </div>
         </div>
     </div>
+    <script type="module" src="./Scripts/GetAbout.js"></script>
 </body>
 </html>
