@@ -36,7 +36,7 @@ export class ConfigSingleton {
       }
   }
 
-  // Example method to use the loaded configuration data
+  // method to use the loaded configuration data
   getConfig() {
       if (!ConfigSingleton.#dataLoaded) {
           throw new Error("Configuration is not loaded yet.");

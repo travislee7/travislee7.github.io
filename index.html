@@ -3,14 +3,14 @@
 <head>
     <title>My Web Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
     <div>
         <nav id="menu">
             <div>
                 <div class="self-photo">
-                    <img src="images/profilephoto.jpg" alt="Photo">
+                    <img id="pfThumbnail" src="" alt="Mini Me">
                 </div>
                 <ul class="menu-list">
                     <a href="index.html">
@@ -25,30 +25,29 @@
                 </ul>
             </div>
             <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/christian-wright-a76689197" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-linkedin"></a></li>
-                <li><a href="https://github.com/wrightc9?tab=repositories" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-github"></a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-envelope"></a></li>
+                <li><a id="pfLinkedIn" href="" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-linkedin"></a></li>
+                <li><a id="pfGitHub" href="" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-github"></a></li>
+                <li><a id="pfStack" href="" target="_blank" rel="noopener noreferrer" class="fa fa-solid fa-lg fa-envelope"></a></li>
             </ul>
         </nav>
     </div>
     <div class="main-section">
         <div class="about-section">
             <div class="about-me-image">
-                <img id="headshot" src="images/profilephoto.jpg" alt="Photo">
+                <img id="pfHeadshot" src="" alt="Photo">
             </div>
             <div>
-                <h1 id="about-name">John Doe</h1>
-                <p id="about-title">Software Engineer</p>
+                <h1 id="pfAboutName"></h1>
+                <p id="pfAboutTitle"></p>
             </div>
             <div class="about-description">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc vitae aliquam tincidunt, nisl nunc ultrices nunc, vitae ultricies nunc nunc id nunc. Sed id semper nunc. Sed euismod, nunc in ultrices tincidunt, nunc nunc aliquam nunc, vitae aliquam nunc nunc id nunc.</p>
+                <p id="pfAboutDesc"></p>
             </div>
             <div class="contact-me">
                 <h2>Contact Me</h2>
-                <p><span>Email:</span>&nbsp<span id="pfEmail"></span></p>
-                <p><span>Phone:</span>&nbsp<span id="pfPhone"></span></p>
-                <p><span>Web:</span>&nbsp<span id="pfWeb"></span></p>
+                <p><a id="pfEmail" href="mailto:">EMail</a></p>
+                <p><a id="pfPhone" href="tel:"></a></p>
+                <p><a id="pfPortfolio" href="" target="_blank" rel="noopener noreferrer">Portfolio</a></p>
             </div>
         </div>
     </div>

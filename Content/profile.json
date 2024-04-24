@@ -3,17 +3,18 @@
   "Name": "Dennis Vickers",
   "Currently": "Computer Science Professor",
   "Headshot": "vickers.jpg",
-  "AboutText": "aboutme.txt",
+  "Thumbnail": "vickers_thumb.jpg",
+  "AboutText": "My name is Dennis Vickers, I'm a Computer Science Professor based in Seattle, WA. I have developed many types of applications from complex modelling tools to Ecommerce platforms. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.",
   "Resume": "resume.pdf"
 },
 "Contact": {
   "EMail": "vickersd@spu.edu",
   "Phone": "(805) 377-0246",
-  "Website": "www.github/DennisVickers",
+  "Portfolio": "www.github/DennisVickers",
   "LinkedIn": "linkedin.com/in/dennisvickers/",
   "Twitter": "@dennis_vickers",
   "GitHub": "github.com/DennisVickers",
-  "Stack Overflow": "stackoverflow.com/users/23173908/dennis-vickers"
+  "StackO": "stackoverflow.com/users/23173908/dennis-vickers"
 },
 "Experience": {
   "School": "Seattle Pacific University",
@@ -24,27 +25,25 @@
   "Role": "Computer Science Lab Assistant"
 },
 "Project1": {
-    "ProjectTitle": "Interesting Project 1",
-    "ProjectDesc": "project1.txt",
+    "Title": "Interesting Project 1",
+    "Desc": "This is a description of Project One.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "ProjectImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project1Img1.jpg",
+    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
   },
   "Project2": {
-    "ProjectTitle": "Interesting Project 2",
-    "ProjectDesc": "project2.txt",
+    "Title": "Interesting Project 2",
+    "Desc": "This is a description of Project Two.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "ProjectImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project1Img2.jpg",
+    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
   },
   "Project3": {
-    "ProjectTitle": "Interesting Project 3",
-    "ProjectDesc": "project3.txt",
+    "Title": "Interesting Project 3",
+    "Desc": "This is a description of Project Three.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "ProjectImages": "[image1.jpg,image2.jpg,image3.jpg]"
-  },
-  "Project4": {
-    "ProjectTitle": "Interesting Project 4",
-    "ProjectDesc": "project1.txt",
-    "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "ProjectImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project1Img3.jpg",
+    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
+
   }
 }
