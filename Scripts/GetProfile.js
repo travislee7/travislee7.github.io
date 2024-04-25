@@ -22,7 +22,7 @@ export class ConfigSingleton {
   async loadConfig() {
       if (!ConfigSingleton.#dataLoaded) {
           try {
-              const response = await fetch('content/profile.json');  // Adjust the path as necessary
+              const response = await fetch('./content/profile.json');
               if (!response.ok) {
                   throw new Error('Failed to fetch the configuration file');
               }
