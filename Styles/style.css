@@ -18,8 +18,8 @@
 }
 
 .self-photo {
-    width: 100px;
-    height: 100px;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     border: 3px solid #fff;
     background-position: center;
