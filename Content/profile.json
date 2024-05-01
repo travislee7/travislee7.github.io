@@ -9,11 +9,10 @@
 "Contact": {
   "EMail": "vickersd@spu.edu",
   "Phone": "(805) 377-0246",
-  "Portfolio": "www.github/DennisVickers",
-  "LinkedIn": "linkedin.com/in/dennisvickers/",
+  "Portfolio": "https://www.github.com/DennisVickers",
+  "LinkedIn": "https://linkedin.com/in/dennisvickers/",
   "Twitter": "@dennis_vickers",
-  "GitHub": "github.com/DennisVickers",
-  "StackO": "stackoverflow.com/users/23173908/dennis-vickers"
+  "GitHub": "https://www.github.com/DennisVickers"
 },
 "Experience": {
   "School": "Seattle Pacific University",
@@ -28,22 +27,22 @@
     "Title": "Interesting Project 1",
     "Desc": "This is a description of Project One.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project1Img1.jpg",
-    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project1Img.jpg",
+    "DetailImages": ["P1Img1.jpg","P1Img2.jpg","P1Img3.jpg","P1Img4.jpg"]
   },
   "Project2": {
     "Title": "Interesting Project 2",
     "Desc": "This is a description of Project Two.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project1Img2.jpg",
-    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project2Img.jpg",
+    "DetailImages": ["P2Img1.jpg","P2Img2.jpg","P2Img3.jpg"]
   },
   "Project3": {
     "Title": "Interesting Project 3",
     "Desc": "This is a description of Project Three.",
     "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project1Img3.jpg",
-    "DetailImages": "[image1.jpg,image2.jpg,image3.jpg]"
+    "MainImage": "project3Img.jpg",
+    "DetailImages": ["P3Img1.jpg","P3Img2.jpg","P3Img3.jpg"]
 
   }
 }
