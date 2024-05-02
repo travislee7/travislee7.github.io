@@ -4,7 +4,7 @@
   "Currently": "Computer Science Professor",
   "Headshot": "vickers.jpg",
   "Thumbnail": "vickers_thumb.jpg",
-  "AboutText": "My name is Dennis Vickers, I'm a Computer Science Professor based in Seattle, WA. I have developed many types of applications from complex modelling tools to Ecommerce platforms. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX."
+  "AboutText": "My name is Dennis Vickers, I'm a Computer Science Professor based in Seattle, WA. <br><br>I have developed many types of applications from complex modelling tools to Ecommerce platforms. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX."
 },
 "Contact": {
   "EMail": "vickersd@spu.edu",
