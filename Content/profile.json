@@ -1,18 +1,17 @@
 {
 "About": {
-  "Name": "Dennis Vickers",
-  "Currently": "Computer Science Professor",
-  "Headshot": "vickers.jpg",
-  "Thumbnail": "vickers_thumb.jpg",
-  "AboutText": "My name is Dennis Vickers, I'm a Computer Science Professor based in Seattle, WA. <br><br>I have developed many types of applications from complex modelling tools to Ecommerce platforms. I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX."
+  "Name": "Robert J Zendejo",
+  "Currently": "Computer Science Student",
+  "Headshot": "student-portrait.png",
+  "Thumbnail": "student-logo.webp",
+  "AboutText": "Hi, I am Bob Zendejo. I am a passionate computer science student with a keen interest in software development and programming. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of computer science, with a particular focus on C++ programming.<br><br>I enjoy tackling challenging programming projects and I thrive in collaborative environments where I can contribute my expertise and learn from my peers.<br><br>Beyond the classroom, I actively engage in extracurricular activities related to computer science, including hackathons, coding competitions, and open-source contributions. I believe in the importance of continuous learning and seek out opportunities to explore new technologies and methodologies."
 },
 "Contact": {
-  "EMail": "vickersd@spu.edu",
-  "Phone": "(805) 377-0246",
-  "Portfolio": "https://www.github.com/DennisVickers",
-  "LinkedIn": "https://linkedin.com/in/dennisvickers/",
-  "Twitter": "@dennis_vickers",
-  "GitHub": "https://www.github.com/DennisVickers"
+  "EMail": "zendejor@spu.edu",
+  "Phone": "(206) 555-5555",
+  "Portfolio": "https://www.github.com",
+  "LinkedIn": "https://linkedin.com",
+  "GitHub": "https://www.github.com"
 },
 "Experience": {
   "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
@@ -25,28 +24,27 @@
   "EmploymentText": "Use this to add some narrative to your employment section",
   "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
   "SkillsText": "Use this to add some narrative to your skills section",
-  "Resume": "resume.pdf"  
+  "Resume": "student-resume.pdf"  
 },
 "Project1": {
     "Title": "Interesting Project 1",
     "Desc": "This is a description of Project One.",
-    "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project1Img.jpg",
-    "DetailImages": ["P1Img1.jpg","P1Img2.jpg","P1Img3.jpg","P1Img4.jpg"]
+    "GitHubRepo": "https://github.com",
+    "MainImage": "P1Main.png",
+    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
     "Title": "Interesting Project 2",
     "Desc": "This is a description of Project Two.",
-    "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project2Img.jpg",
-    "DetailImages": ["P2Img1.jpg","P2Img2.jpg","P2Img3.jpg"]
+    "GitHubRepo": "https://github.com",
+    "MainImage": "P2Main.png",
+    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
   "Project3": {
     "Title": "Interesting Project 3",
     "Desc": "This is a description of Project Three.",
-    "GitHubRepo": "https://github.com/DennisVickers/SampleRepo",
-    "MainImage": "project3Img.jpg",
-    "DetailImages": ["P3Img1.jpg","P3Img2.jpg","P3Img3.jpg"]
-
+    "GitHubRepo": "https://github.com",
+    "MainImage": "P3Main.png",
+    "DetailImages": ["P3Detail1.png","P3Detail2.png"]
   }
 }
