@@ -259,23 +259,23 @@ project-detail a {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: black;
+    background-color: rgba(0,0,0,.65);
 }
   
 .carousel {
+    max-width: 75%;
     position: relative;
+    top: 5%;
+    margin: 0 auto;
+    padding: 0 .5rem 1rem .5rem;
     background-color: white;
-    margin: auto;
-    padding: 0 1.6rem 1.6rem 1.6rem;
-    border: 1px solid #888;
-    max-width: 65vw;
 }
   
 #imgList img {
     display: block;
     margin: 1rem auto 1rem auto;
-    max-height: 91vh;
-    width: auto;
+    max-height: 95%;
+    max-width: 95%;
 }
   
 #prev, #next {
@@ -283,23 +283,22 @@ project-detail a {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
-    padding: 16px;
+    padding: 1.6rem;
     color: red;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 4rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
   
 #next {
-    right: 20px;
+    right: 1%;
     border-radius: 3px 0 0 3px;
 }
     
 #prev {
-    left: 20px;
+    left: 1%;
     border-radius: 0 3px 3px 0;
 }
 
@@ -311,7 +310,6 @@ project-detail a {
     margin-top: .25rem;
     padding: 0;
     color: red;
-    /* float: right; */
     text-align: right;
     font-size: 2.5rem;
     font-weight: bold;

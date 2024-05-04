@@ -13,25 +13,75 @@ let configData;
   })();
   
 function updateHTML(configData) {
+  let projectTitle;
+
   document.querySelector("#pfThumbnail").src = "Content/".concat(configData.About.Thumbnail);
   document.querySelector("#pfLinkedIn").href = configData.Contact.LinkedIn;
   document.querySelector("#pfGitHub").href = configData.Contact.GitHub;
+  
+  projectTitle = configData.Project1.Title;
+  if (projectTitle) {
+    document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
+    document.querySelector("#pfProject1Title").innerHTML = projectTitle;
+    document.querySelector("#pfProject1Desc").innerHTML = configData.Project1.Desc;
+    document.querySelector("#pfProject1Repo").href = configData.Project1.GitHubRepo;
+    if (!configData.Project1.GitHubRepo) {
+      document.querySelector("#pfProject1Repo").style.display = "none";
+    }
+    if (configData.Project1.DetailImages.length<1) {
+      document.querySelector("#openProject1").style.display = "none";
+    }
+  } else {
+    document.querySelector("#project1").style.display = "none";
+  }
+  
+  projectTitle = configData.Project2.Title;
+  if (projectTitle) {
+    document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
+    document.querySelector("#pfProject2Title").innerHTML = projectTitle;
+    document.querySelector("#pfProject2Desc").innerHTML = configData.Project2.Desc;
+    document.querySelector("#pfProject2Repo").href = configData.Project2.GitHubRepo;
+    if (!configData.Project2.GitHubRepo) {
+      document.querySelector("#pfProject2Repo").style.display = "none";
+    }
+    if (configData.Project2.DetailImages.length<1) {
+      document.querySelector("#openProject2").style.display = "none";
+    }
+  } else {
+    document.querySelector("#project2").style.display = "none";
+  }
 
-  document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
-  document.querySelector("#pfProject1Title").innerHTML = configData.Project1.Title;
-  document.querySelector("#pfProject1Desc").innerHTML = configData.Project1.Desc;
-  document.querySelector("#pfProject1Repo").href = configData.Project1.GitHubRepo;
-  // addImages(configData.Project1.DetailImages);
-
-  document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
-  document.querySelector("#pfProject2Title").innerHTML = configData.Project2.Title;
-  document.querySelector("#pfProject2Desc").innerHTML = configData.Project2.Desc;
-  document.querySelector("#pfProject2Repo").href = configData.Project2.GitHubRepo;
-
-  document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
-  document.querySelector("#pfProject3Title").innerHTML = configData.Project3.Title;
-  document.querySelector("#pfProject3Desc").innerHTML = configData.Project3.Desc;
-  document.querySelector("#pfProject3Repo").href = configData.Project3.GitHubRepo;
+  projectTitle = configData.Project3.Title;
+  if (projectTitle) {
+    document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
+    document.querySelector("#pfProject3Title").innerHTML = projectTitle;
+    document.querySelector("#pfProject3Desc").innerHTML = configData.Project3.Desc;
+    document.querySelector("#pfProject3Repo").href = configData.Project3.GitHubRepo;
+    if (!configData.Project3.GitHubRepo) {
+      document.querySelector("#pfProject3Repo").style.display = "none";
+    }
+    if (configData.Project3.DetailImages.length<1) {
+      document.querySelector("#openProject3").style.display = "none";
+    }
+  } else {
+    document.querySelector("#project3").style.display = "none";
+  }
+  
+  projectTitle = configData.Project4.Title;
+  if (projectTitle) {
+    document.querySelector("#pfProject4Img").src = "Content/".concat(configData.Project4.MainImage);
+    document.querySelector("#pfProject4Title").innerHTML = projectTitle;
+    document.querySelector("#pfProject4Desc").innerHTML = configData.Project4.Desc;
+    document.querySelector("#pfProject4Repo").href = configData.Project4.GitHubRepo;
+    if (!configData.Project4.GitHubRepo) {
+      document.querySelector("#pfProject4Repo").style.display = "none";
+    }
+    if (configData.Project4.DetailImages.length<1) {
+      document.querySelector("#openProject4").style.display = "none";
+    }
+  } else {
+    document.querySelector("#project4").style.display = "none";
+  }
 }
 
 function addImages(imgs) {

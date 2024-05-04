@@ -28,23 +28,30 @@
 },
 "Project1": {
     "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.",
+    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
     "Title": "Interesting Project 2",
-    "Desc": "This is a description of Project Two.",
+    "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
     "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
   "Project3": {
     "Title": "Interesting Project 3",
-    "Desc": "This is a description of Project Three.",
-    "GitHubRepo": "https://github.com",
+    "Desc": "This is a description of Project Three.<br><br>It does not have a GitHub repo or any additional screenshots.",
+    "GitHubRepo": "",
     "MainImage": "P3Main.png",
-    "DetailImages": ["P3Detail1.png","P3Detail2.png"]
+    "DetailImages": []
+  },
+  "Project4": {
+    "Title": "",
+    "Desc": "",
+    "GitHubRepo": "",
+    "MainImage": "",
+    "DetailImages": []
   }
 }
