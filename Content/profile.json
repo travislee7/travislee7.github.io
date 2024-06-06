@@ -29,14 +29,14 @@
 "Project1": {
     "Title": "System Proposal",
     "Desc": "This is my System Proposal project from my Systems Design class.<br><br>Here is the link to the project.",
-    "GitHubRepo": "https://github.com",
+    "GitHubRepo": "https://spuonline-my.sharepoint.com/:w:/g/personal/leet19_spu_edu/Ee-VaRiDVTdAnwpqXSnf6-kBC43K-HMDEu0nYdQkr0yBnQ?e=h1FKFt",
     "MainImage": "P1Main.jpg",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
     "Title": "System Specification",
     "Desc": "This is my System Specification from my Systems Design class.<br><br>Here is the link to the project.",
-    "GitHubRepo": "https://github.com",
+    "GitHubRepo": "https://spuonline-my.sharepoint.com/:w:/g/personal/leet19_spu_edu/ERxeSRzyRXZIjz2MnbZ9DI4BhrwneJGy37q0ETz6U9XBZA?e=FlbRLT",
     "MainImage": "P2Main.jpg",
     "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
