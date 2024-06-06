@@ -30,14 +30,14 @@
     "Title": "System Proposal",
     "Desc": "This is my System Proposal project from my Systems Design class.<br><br>Here is the link to the project.",
     "GitHubRepo": "https://github.com",
-    "MainImage": "P1Main.png",
+    "MainImage": "P1Main.jpg",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
   "Project2": {
     "Title": "System Specification",
     "Desc": "This is my System Specification from my Systems Design class.<br><br>Here is the link to the project.",
     "GitHubRepo": "https://github.com",
-    "MainImage": "P2Main.png",
+    "MainImage": "P2Main.jpg",
     "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
   },
   "Project3": {
